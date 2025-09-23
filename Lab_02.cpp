@@ -8,11 +8,15 @@
 using namespace std;
 int main() {
     double a;   // вхідний параметр
+    double b;   // новий параметр для другого завдання
     double z1;  // результат першого виразу
     double z2;  // результат другого виразу
 
     cout << "a = ";
     cin >> a;
+
+    cout << "b =";
+    cout >> b;
 
     // Обчислення
     z1 = pow(cos(3.0 * M_PI / 8.0 - a/ 4.0), 2)
